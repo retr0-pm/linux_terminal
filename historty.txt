@@ -1,0 +1,58 @@
+    1  pwd
+    2  ls
+    3  cd ~
+    4  mkdir sandbox
+    5  cd sandbox/
+    6  touch file.txt
+    7  echo "Hello, World!" > file.txt
+    8  nano file.txt 
+    9  cat file.txt
+   10  cp file.txt file_copy.txt
+   11  mv file_copy.txt renamed_file.txt
+   12  cd ..
+   13  mkdir sandbox_new
+   14  mv sandbox/renamed_file.txt sandbox_new/
+   15  cd sandbox
+   16  wget "https://github.com/arybin93/sandbox/raw/master/application_1674570331837_972184.zip"
+   17  unzip application_1674570331837_972184.zip
+   18  head application_1674570331837_972184.log
+   19  tail application_1674570331837_972184.log
+   20  grep -i "error" application_1674570331837_972184.log
+   21  wc -w application_1674570331837_972184.log
+   22  ls -lh application_1674570331837_972184.log
+   23  du -hs application_1674570331837_972184.log
+   24  zip zipped_app_log application_1674570331837_972184.log
+   25  du -hs zipped_app_log.zip
+   26  du ~
+   27  df -h
+   28  df -h > size.txt
+   29  cd
+   30  mkdir git_dir
+   31  cd git_dir/
+   32  git init
+   33  mv ~/sandbox/file.txt
+   34  mv ~/sandbox/file.txt .
+   35  git add file.txt
+   36  git commit -m Initial Commit
+   37  git commit -m "Initial Commit"
+   38  git log
+   39  git branch new_branch
+   40  git checkout new_branch 
+   41  nano file.txt 
+   42  git add file.txt 
+   43  git commit -m "Updated file"
+   44  git checkout main
+   45  git checkout master
+   46  git merge new_branch
+   47  history
+   48  cd
+   49  rm -rf sandbox
+   50  rm -rf sandbox_new/
+   51  gio trash --list
+   52  gio trash --list ~/.local/share/Trash
+   53  ls ~/.local/share/Trash/files
+   54  ls ~/.local/share/Trash/
+   55  ls ~/.local/share/
+   56  ls ~/.cache/Trash
+   57  cd git_dir/
+   58  history > historty.txt
